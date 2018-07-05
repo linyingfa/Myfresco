@@ -7,6 +7,7 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import zhubaoseller.sunnsoft.com.myfresco.R;
 
@@ -29,6 +30,12 @@ public class TestViewAry extends AppCompatActivity {
 				return false;
 			}
 		});
+		text.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Toast.makeText(TestViewAry.this, "chick", Toast.LENGTH_SHORT).show();
+			}
+		});
 	}
 
 	@Override
@@ -40,7 +47,7 @@ public class TestViewAry extends AppCompatActivity {
 		原点向右延伸是X轴正方向，原点向下延伸是Y轴正方向*/
 //		text.setX()=setTranslationX(x - mLeft);
 //		getX = getLeft + getTraslationX
-//		getdefuViewZUOBIAO();
+		getdefuViewZUOBIAO();
 //		I/System.out: 100.0---------cX-----------
 //		I/System.out: 100.0--------cY--------
 //		I/System.out: 100------cLeft---------
@@ -82,6 +89,18 @@ public class TestViewAry extends AppCompatActivity {
 		System.out.println(text.getBottom() + "------cBottom---------");
 		System.out.println(text.getRight() + "------cRight---------");
 		System.out.println("=========================");
+		/*text.setX(50);*/
+		System.out.println(text.getLeft() + "------cLeft---------");
+		System.out.println(text.getX() + "---------cX-----------");
+		System.out.println(text.getTranslationX() + "---------cX-----------");
+//		I/System.out: 100------cLeft---------
+//		I/System.out: 50.0---------cX-----------
+//		I/System.out: -50.0---------cX-----------
+		text.setX(200);//右边移动是负数，左边移动是正数
+//		I/System.out: =========================
+//		I/System.out: 100------cLeft---------
+//		I/System.out: 150.0---------cX-----------
+//		I/System.out: 50.0---------cX-----------
 	}
 
 	private void getdefuViewZUOBIAO2() {
