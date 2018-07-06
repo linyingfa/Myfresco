@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rotate xmlns:android="http://schemas.android.com/apk/res/android"
+        android:duration="3000"
+        android:fromDegrees="0"
+        android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+        android:pivotX="100%"
+        android:pivotY="0"
+        android:toDegrees="+350" />
+    <!--
+        android:pivotX="50%"
+        android:pivotY="50%"
+
+    浮点数型值:
+    fromDegrees 属性为动画起始时物件的角度
+    toDegrees 属性为动画结束时物件旋转的角度 可以大于360度
+    说明:
+    当角度为负数——表示逆时针旋转
+    当角度为正数——表示顺时针旋转
+    (负数from——to正数:顺时针旋转)
+    (负数from——to负数:逆时针旋转)
+    (正数from——to正数:顺时针旋转)
+    (正数from——to负数:逆时针旋转)
+
+
+    pivotX 属性为动画相对于物件(自身)的X坐标的开始位置
+    pivotY 属性为动画相对于物件（自身）的Y坐标的开始位置
+    说明:
+    以上两个属性值 从0%-100%中取值, 50%为物件的X或Y方向坐标上的中点位置
+
+    自身，0%-100%代表自身的宽度比例取值，取那个点，围绕这个点来旋转，
+    如果没有设置%就会整体来旋转
+
+    -->
