@@ -7,21 +7,15 @@
     android:layout_height="match_parent"
     tools:context="zhubaoseller.sunnsoft.com.donghua.AnimationaActivity">
 
-    <LinearLayout
-        android:layout_width="300dp"
-        android:layout_height="300dp"
+    <TextView
+        android:layout_alignParentLeft="true"
+        android:id="@+id/textview00"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_centerInParent="true"
-        android:background="@color/colorPrimary"
-        android:gravity="center">
-
-        <TextView
-            android:id="@+id/textview00"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:background="@color/colorAccent"
-            android:gravity="center"
-            android:text="afasfsadf" />
-    </LinearLayout>
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:text="afasfsadf" />
 
     <Button
         android:layout_width="match_parent"
