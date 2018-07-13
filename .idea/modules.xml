@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/FJDropDownMenuLib/FJDropDownMenuLib.iml" filepath="$PROJECT_DIR$/FJDropDownMenuLib/FJDropDownMenuLib.iml" />
       <module fileurl="file://$PROJECT_DIR$/Myfresco.iml" filepath="$PROJECT_DIR$/Myfresco.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
