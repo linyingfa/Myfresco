@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
     <Button
         android:layout_width="match_parent"
@@ -22,7 +21,6 @@
             android:layout_height="40dp"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="20dp"
-            android:background="@color/white"
             android:src="@mipmap/ic_launcher" />
 
         <TextView
@@ -33,13 +31,13 @@
             android:layout_marginTop="20dp"
             android:background="@color/colorPrimaryDark"
             android:gravity="center"
-            android:textSize="8sp"
             android:text="问题反馈，退出"
-            android:textColor="@color/white"
+            android:textSize="8sp"
             android:visibility="invisible" />
-
-
     </RelativeLayout>
 
-
+    <zhubaoseller.sunnsoft.com.view.MyLinelayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true" />
 </RelativeLayout>

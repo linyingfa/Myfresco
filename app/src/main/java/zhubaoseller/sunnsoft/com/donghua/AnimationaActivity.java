@@ -22,7 +22,6 @@ public class AnimationaActivity extends AppCompatActivity {
 //		mAnimation = AnimationUtils.loadAnimation(this, R.anim.my_scale_action);
 //		mAnimation = AnimationUtils.loadAnimation(this, R.anim.my_translate_action);
 		mAnimation = AnimationUtils.loadAnimation(this, R.anim.my_translate_action2);
-		text = findViewById(R.id.textview00);
 	}
 
 	public void onB(View view) {
