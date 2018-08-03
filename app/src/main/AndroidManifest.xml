@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="zhubaoseller.sunnsoft.com.myfresco">
+          package="zhubaoseller.sunnsoft.com.myfresco">
 
     <uses-permission android:name="android.permission.INTERNET" />
-
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
     <application
         android:name=".ApplicationM"
         android:allowBackup="true"
@@ -17,29 +20,22 @@
             android:screenOrientation="landscape">
             <!--<intent-filter>-->
             <!--<action android:name="android.intent.action.MAIN" />-->
-
             <!--<category android:name="android.intent.category.LAUNCHER" />-->
             <!--</intent-filter>-->
         </activity>
-
         <activity
-            android:name=".Main3Activity"
+            android:name="zhubaoseller.sunnsoft.com.list_item_doc"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".Main2Activity"
             android:screenOrientation="landscape">
-
             <!-- <intent-filter> -->
             <!-- <action android:name="android.intent.action.MAIN" /> -->
-
-
             <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
             <!-- </intent-filter> -->
         </activity>
@@ -47,11 +43,8 @@
             android:name=".two.ColorActivity"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.Color">
-
             <!-- <intent-filter> -->
             <!-- <action android:name="android.intent.action.MAIN" /> -->
-
-
             <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
             <!-- </intent-filter> -->
         </activity>
@@ -59,16 +52,12 @@
             android:name=".two.ImageActivity"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.Image">
-
             <!-- <intent-filter> -->
             <!-- <action android:name="android.intent.action.MAIN" /> -->
-
-
             <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
             <!-- </intent-filter> -->
         </activity>
         <!-- <activity android:name=".Main2Activity"></activity> -->
         <!--<activity android:name=".Main3Activity"></activity>-->
     </application>
-
 </manifest>
